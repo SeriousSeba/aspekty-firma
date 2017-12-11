@@ -3,6 +3,7 @@
 \usepackage[polish]{babel}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
+\usepackage{enumitem}
 
 \begin{document}
 	\begin{titlepage}
@@ -31,4 +32,12 @@
 	\include{formyOpodatkowania}
 	\include{zatrudnianiePracownikow}
 	\include{wnioski}
+	
+	Załączniki:
+	\begin{enumerate}[label=Załącznik \arabic*]
+		\item Akt notarialny
+		\item dd
+	\end{enumerate}
+	
+	\include{zalaczniki/aktNotarialny}
 \end{document}
