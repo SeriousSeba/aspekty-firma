@@ -4,6 +4,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
 \usepackage{enumitem}
+\usepackage{pdfpages}
 
 \begin{document}
 	\begin{titlepage}
@@ -36,8 +37,9 @@
 	Załączniki:
 	\begin{enumerate}[label=Załącznik \arabic*]
 		\item Akt notarialny
-		\item dd
+		\item Wniosek o rejestrację spółki z ograniczoną odpowiedzialnością (KRS-W3) 
 	\end{enumerate}
 	
 	\include{zalaczniki/aktNotarialny}
+	\includepdf[page=-]{zalaczniki/krs-w3.pdf}
 \end{document}
